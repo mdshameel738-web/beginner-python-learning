@@ -1,0 +1,287 @@
+mixed_celebrities = {
+    # --- WEALTH DOMINANT (Net Worth in USD) ---
+    "Elon Musk": {
+        "country": "USA",
+        "field": "Technology (Tesla/SpaceX)",
+        "dob": "1971-06-28",
+        "parameter": "Net Worth (USD)",
+        "value": 363000000000
+    },
+    "Mark Zuckerberg": {
+        "country": "USA",
+        "field": "Social Media (Meta)",
+        "dob": "1984-05-14",
+        "parameter": "Net Worth (USD)",
+        "value": 260000000000
+    },
+    "Jeff Bezos": {
+        "country": "USA",
+        "field": "E-commerce (Amazon)",
+        "dob": "1964-01-12",
+        "parameter": "Net Worth (USD)",
+        "value": 240000000000
+    },
+    "Larry Ellison": {
+        "country": "USA",
+        "field": "Software (Oracle)",
+        "dob": "1944-08-17",
+        "parameter": "Net Worth (USD)",
+        "value": 236000000000
+    },
+    "Bill Gates": {
+        "country": "USA",
+        "field": "Technology (Microsoft)",
+        "dob": "1955-10-28",
+        "parameter": "Net Worth (USD)",
+        "value": 179000000000
+    },
+    "Larry Page": {
+        "country": "USA",
+        "field": "Technology (Google)",
+        "dob": "1973-03-26",
+        "parameter": "Net Worth (USD)",
+        "value": 160000000000
+    },
+    "Warren Buffett": {
+        "country": "USA",
+        "field": "Investing (Berkshire Hathaway)",
+        "dob": "1930-08-30",
+        "parameter": "Net Worth (USD)",
+        "value": 152000000000
+    },
+    "Bernard Arnault": {
+        "country": "France",
+        "field": "Luxury Goods (LVMH)",
+        "dob": "1949-03-05",
+        "parameter": "Net Worth (USD)",
+        "value": 149000000000
+    },
+    "Jensen Huang": {
+        "country": "USA/Taiwan",
+        "field": "Technology (NVIDIA)",
+        "dob": "1963-02-17",
+        "parameter": "Net Worth (USD)",
+        "value": 138000000000
+    },
+    "Mukesh Ambani": {
+        "country": "India",
+        "field": "Petrochemicals & Telecom",
+        "dob": "1957-04-19",
+        "parameter": "Net Worth (USD)",
+        "value": 109000000000
+    },
+    "Steven Spielberg": {
+        "country": "USA",
+        "field": "Filmmaking",
+        "dob": "1946-12-18",
+        "parameter": "Net Worth (USD)",
+        "value": 5300000000
+    },
+    "Michael Jordan": {
+        "country": "USA",
+        "field": "Sports Business",
+        "dob": "1963-02-17",
+        "parameter": "Net Worth (USD)",
+        "value": 3500000000
+    },
+    "Oprah Winfrey": {
+        "country": "USA",
+        "field": "Media & TV",
+        "dob": "1954-01-29",
+        "parameter": "Net Worth (USD)",
+        "value": 3000000000
+    },
+    "Jay-Z": {
+        "country": "USA",
+        "field": "Music & Business",
+        "dob": "1969-12-04",
+        "parameter": "Net Worth (USD)",
+        "value": 2500000000
+    },
+
+    # --- FAME DOMINANT (Instagram Followers) ---
+    "Cristiano Ronaldo": {
+        "country": "Portugal",
+        "field": "Sports (Football)",
+        "dob": "1985-02-05",
+        "parameter": "Instagram Followers",
+        "value": 669000000
+    },
+    "Lionel Messi": {
+        "country": "Argentina",
+        "field": "Sports (Football)",
+        "dob": "1987-06-24",
+        "parameter": "Instagram Followers",
+        "value": 511000000
+    },
+    "Selena Gomez": {
+        "country": "USA",
+        "field": "Music & Acting",
+        "dob": "1992-07-22",
+        "parameter": "Instagram Followers",
+        "value": 416000000
+    },
+    "Dwayne Johnson": {
+        "country": "USA",
+        "field": "Acting & Wrestling",
+        "dob": "1972-05-02",
+        "parameter": "Instagram Followers",
+        "value": 391000000
+    },
+    "Kylie Jenner": {
+        "country": "USA",
+        "field": "Reality TV & Cosmetics",
+        "dob": "1997-08-10",
+        "parameter": "Instagram Followers",
+        "value": 391000000
+    },
+    "Ariana Grande": {
+        "country": "USA",
+        "field": "Music",
+        "dob": "1993-06-26",
+        "parameter": "Instagram Followers",
+        "value": 372000000
+    },
+    "Kim Kardashian": {
+        "country": "USA",
+        "field": "Reality TV",
+        "dob": "1980-10-21",
+        "parameter": "Instagram Followers",
+        "value": 354000000
+    },
+    "Beyonce": {
+        "country": "USA",
+        "field": "Music",
+        "dob": "1981-09-04",
+        "parameter": "Instagram Followers",
+        "value": 308000000
+    },
+    "Justin Bieber": {
+        "country": "Canada",
+        "field": "Music",
+        "dob": "1994-03-01",
+        "parameter": "Instagram Followers",
+        "value": 292000000
+    },
+    "Kendall Jenner": {
+        "country": "USA",
+        "field": "Modeling",
+        "dob": "1995-11-03",
+        "parameter": "Instagram Followers",
+        "value": 285000000
+    },
+    "Taylor Swift": {
+        "country": "USA",
+        "field": "Music",
+        "dob": "1989-12-13",
+        "parameter": "Instagram Followers",
+        "value": 281000000
+    },
+    "Virat Kohli": {
+        "country": "India",
+        "field": "Sports (Cricket)",
+        "dob": "1988-11-05",
+        "parameter": "Instagram Followers",
+        "value": 274000000
+    },
+    "Neymar Jr": {
+        "country": "Brazil",
+        "field": "Sports (Football)",
+        "dob": "1992-02-05",
+        "parameter": "Instagram Followers",
+        "value": 231000000
+    },
+    "Nicki Minaj": {
+        "country": "Trinidad/USA",
+        "field": "Music",
+        "dob": "1982-12-08",
+        "parameter": "Instagram Followers",
+        "value": 223000000
+    },
+    "Khaby Lame": {
+        "country": "Italy/Senegal",
+        "field": "Social Media",
+        "dob": "2000-03-09",
+        "parameter": "Instagram Followers",
+        "value": 162000000
+    },
+    "Narendra Modi": {
+        "country": "India",
+        "field": "Politics",
+        "dob": "1950-09-17",
+        "parameter": "Instagram Followers",
+        "value": 99000000
+    }
+}
+
+import random
+import art
+
+print(art.logo)
+
+# --- INITIAL SETUP ---
+score = 0
+should_continue = True
+
+# We pick the first "Person A" to start the game
+person_a_name = random.choice(list(mixed_celebrities.keys()))
+
+print("🌟 WELCOME TO THE HIGHER OR LOWER GAME 🌟")
+
+while should_continue:
+    # 1. Pick a "Person B" that is NOT the same as Person A
+    person_b_name = random.choice(list(mixed_celebrities.keys()))
+    while person_a_name == person_b_name:
+        person_b_name = random.choice(list(mixed_celebrities.keys()))
+
+    # Get the data for both
+    data_a = mixed_celebrities[person_a_name]
+    data_b = mixed_celebrities[person_b_name]
+
+    # 2. Print all information for Choice A
+    print(f"\n[CHOICE A]")
+    print(f"Name:      {person_a_name}")
+    print(f"Country:   {data_a['country']}")
+    print(f"DOB:       {data_a['dob']}")
+    print(f"Field:     {data_a['field']}")
+    print(f"Parameter: {data_a['parameter']}")
+
+    print(art.vs)
+
+    # 3. Print all information for Choice B
+    print(f"\n[CHOICE B]")
+    print(f"Name:      {person_b_name}")
+    print(f"Country:   {data_b['country']}")
+    print(f"DOB:       {data_b['dob']}")
+    print(f"Field:     {data_b['field']}")
+    print(f"Parameter: {data_b['parameter']}")
+
+    # 4. Logic: Determine the winner and store the name in greater_value
+    if data_a['value'] > data_b['value']:
+        greater_value_name = person_a_name
+    else:
+        greater_value_name = person_b_name
+
+    # 5. Take User Input
+    guess = input("\nWho has the higher value? Type 'A' or 'B': ").strip().upper()
+
+    # 6. Check if user is correct
+    # We find which name corresponds to the user's letter guess
+    if guess == "A":
+        user_choice_name = person_a_name
+    else:
+        user_choice_name = person_b_name
+
+    if user_choice_name == greater_value_name:
+        score += 1
+        print(f"\n✅ CORRECT! Current Score: {score}")
+
+        # IMPORTANT: The winner becomes the next Person A
+        person_a_name = greater_value_name
+    else:
+        should_continue = False
+        print(f"\n❌ WRONG. Game Over!")
+        print(f"Final Score: {score}")
+        print(f"Detailed Results:")
+        print(f"- {person_a_name}: {data_a['value']:,}")
+        print(f"- {person_b_name}: {data_b['value']:,}")
