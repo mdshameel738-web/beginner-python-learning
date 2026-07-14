@@ -1,7 +1,0 @@
-`#BANDNAME GENERATOR
-
-print("welome!! to the bandname generator")
-city=input("please tell the city that you are grown up?>.<")
-pet=input("tell the name for your pet animal?>__<")
-band_name=city+ "" +pet
-`print(band_name)``
