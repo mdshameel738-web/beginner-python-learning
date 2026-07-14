@@ -1,8 +1,0 @@
-#1st day
-#made an bandname generator
-print("hi! everyone who have came to this band making program")
-gcity=input("which city did you grew up?")
-pet=input("what is your pet name?")
-band_name=gcity+pet
-print("your band name is:"+band_name)
-
